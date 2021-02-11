@@ -1,3 +1,5 @@
+run: Tic_Tac_Toe
+	./Tic_Tac_Toe
 Tic_Tac_Toe: main.o
 	g++ main.o -o Tic_Tac_Toe
 main.o: main.cpp
